@@ -1,26 +1,24 @@
 ﻿<Properties StartupConfiguration="{62E4E7FA-E378-5A79-6B40-9E9B7073DE40}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AnimateHandOnInput.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.render-pipelines.universal@14.0.8/Shaders/Lit.shader">
     <Files>
-      <File FileName="Assets/AnimateHandOnInput.cs" Line="1" Column="1" />
+      <File FileName="Assets/AnimateHandOnInput.cs" Line="28" Column="1" />
+      <File FileName="Library/PackageCache/com.unity.render-pipelines.universal@14.0.8/Shaders/Lit.shader" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HaveFunf" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="AnimateHandOnInput.cs" selected="True" />
+            </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8b477c71-0d3a-4ce0-849f-b7602d061c7b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f9de2325-5025-49a8-bd24-4680e16c9166" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
