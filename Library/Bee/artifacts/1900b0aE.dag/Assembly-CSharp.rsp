@@ -401,6 +401,8 @@
 "Assets/Scripts/CharacterBoundary.cs"
 "Assets/Scripts/CharacterHealth.cs"
 "Assets/Scripts/DrawingCanvas.cs"
+"Assets/Scripts/Health.cs"
+"Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/MFZero.cs"
 "Assets/Scripts/NPCScript.cs"
 "Assets/Scripts/SaveScript.cs"
