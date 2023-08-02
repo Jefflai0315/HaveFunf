@@ -1,0 +1,19 @@
+<dependencies>
+  <compile
+      roots="D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="D:\Kw16 Live\Documents\Github Local\ykw\HaveFunf\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>
