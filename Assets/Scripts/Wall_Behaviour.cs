@@ -5,31 +5,35 @@ using UnityEngine;
 public class Wall_Behaviour : MonoBehaviour
 {
 
-   public int damageAmount = 20;
+   public int damageAmount = 10;
 
-    void OnTriggerEnter(Collider other)
+   // on trigger enter is for one time damage
+    void OnTriggerEnter(Collider other) 
     {
         if (other.gameObject.tag == "Walls")
          {
             Debug.Log("got hit");
-            CharacterHealth characterHealth = GetComponent<CharacterHealth>();
-            if (characterHealth != null)
-               {   Debug.Log("Take Damage");
-                  characterHealth.TakeDamage(damageAmount);
+            Health health = GetComponent<Health>();
+            if (health != null)
+               {   
+                  Debug.Log("Take Damage");
+                  health.DamagePlayer(damageAmount);
+                  Destroy(other.gameObject);
                }
             
          }
     }
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerStay(Collider other) // this is for continuous damage
     {
         if (other.gameObject.tag == "Walls")
          {
             Debug.Log("STAY");
+
          }
     }
 
-    void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other) // this is for continuous damage
     {
          if (other.gameObject.tag == "Walls")
          {

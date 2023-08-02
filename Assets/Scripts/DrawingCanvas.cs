@@ -17,9 +17,9 @@ public class DrawingCanvas : MonoBehaviour
     private Vector3 moveDirection;
     private Vector3 targetDirection;
     private Quaternion targetRotation;
-    private bool rotating = true;
-    private float rotationTime = 3f;
-    private float timer = 0f;
+    // private bool rotating = true;
+    // private float rotationTime = 3f;
+    // private float timer = 0f;
 
     // Start is called before the first frame update
     void Start()
